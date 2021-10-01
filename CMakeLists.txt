@@ -19,6 +19,8 @@ set(PROJECT_SOURCES
         main.cpp
         qml.qrc
         device.h device.cpp
+        services.h services.cpp
+        devicesservice.h devicesservice.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
